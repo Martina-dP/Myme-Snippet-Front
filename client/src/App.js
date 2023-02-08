@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from './components/home/home';
+import Player from "./components/player/player"
  
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div>
         <Routes>
           <Route path="/" element={<Home/>} />
+          <Route path="/song/:trackId" element={<Player/>} />
         </Routes>
       </div>
     </BrowserRouter>

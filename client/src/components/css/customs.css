@@ -1,0 +1,13 @@
+.rhap_progress-filled {
+    background-color: #EF5466;
+}
+
+.rhap_total-time {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #000000;
+}

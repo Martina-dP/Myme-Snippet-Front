@@ -1,0 +1,76 @@
+.all {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 72px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.05);
+}
+
+.img {
+    width: 8rem;
+    height: 1.6rem;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    cursor:default
+}
+
+.text {
+    font-size: 18px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.imgP {
+    width: 2rem;
+    height: 2rem;
+}
+
+.cardSongs{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.result {
+    margin: 1rem 0 0 3rem;
+}
+
+.search {
+    width: 700px;
+    height: 36px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.6);
+    padding-left: 1rem;
+    opacity: 70%;
+}
+
+.btnSearch {
+    height: 36px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-left: .4rem;
+}
+
+.btnS {
+    height: 16px;
+    width: 24px;
+    opacity: 70%;
+    cursor: pointer;
+}
+
